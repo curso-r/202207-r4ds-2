@@ -45,29 +45,18 @@ Fora do horário de aula ou monitoria:
 ## Slides
 
 ```{r}
-paths <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$") %>% 
+CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$") %>% 
   tibble::enframe(value = "paths") %>% 
   dplyr::filter(!stringr::str_detect(paths, "figure-html")) %>% 
   dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths)) %>% 
-  dplyr::select(-name)
-
-
-paths_pdf <- CursoRopen:::list_github_files(params$main_repo, "slides/", "[0-9]-.*pdf$") %>% 
-  tibble::enframe(value = "paths_pdf") %>% 
-  dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths_pdf)) %>%
-  dplyr::select(-name)
-
-dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") %>% 
+  dplyr::select(-name) %>% 
 dplyr::mutate(
   slide = paths,
   link = paste0("https://curso-r.github.io/", params$main_repo, "/", slide),
-  slides = glue::glue("[{basename(slide)}]({link})"),
-  slide_pdf = paths_pdf,
-  link_pdf = paste0("https://curso-r.github.io/", params$main_repo, "/", slide_pdf),
-  pdf = glue::glue("[{basename(slide_pdf)}]({link_pdf})")
+  slides = glue::glue("[{basename(slide)}]({link})")
 ) %>% 
   dplyr::filter(!stringr::str_detect(slide, "_files/")) %>%
-  dplyr::select(slides, pdf) %>% 
+  dplyr::select(slides) %>% 
   knitr::kable()
 ```
 
@@ -75,16 +64,16 @@ dplyr::mutate(
 ## Scripts utilizados em aula
 
 ```{r}
-pasta <- "exemplos_de_aula/"
+pasta <- "exemplos_de_aula"
 
 
 knitr::kable(
   tibble::tibble(
-    script = CursoRopen:::list_github_files(params$main_repo, pasta, ".R$"),
+    script = list.files(pasta, full.names = TRUE),
     link = paste0(
-      "https://github.com/curso-r/",
+      "https://raw.githubusercontent.com/curso-r/",
       params$turma,
-      "/blob/master/",
+      "/main/",
       script
     )
   ) %>%
