@@ -129,7 +129,7 @@ readxl::read_excel("tab_exercicios.xlsx") %>%
   knitr::kable(col.names = c("Aula", "Descrição"))
 ```
 
-## Lição de casa extra &#x1f913;
+## Lição de casa extra
 
 ```{r}
 readxl::read_excel("tab_exercicios.xlsx") %>%

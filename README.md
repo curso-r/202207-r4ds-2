@@ -56,7 +56,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Exercícios de tidyr](https://livro.curso-r.com/7-3-tidyr.html#exerc%C3%ADcios-18)                                                                                                                                                                                                                                               |
 |    3 | [Exercícios stringr](https://livro.curso-r.com/7-4-o-pacote-stringr.html#exerc%C3%ADcios-19)                                                                                                                                                                                                                                     |
 
-## Lição de casa extra 🤓
+## Lição de casa extra
 
 | Aula | Descrição                                                                                                                                                                                         |
 |-----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
