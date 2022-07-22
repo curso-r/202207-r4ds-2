@@ -5,7 +5,7 @@ params:
   trilha_clean: programacao_para_ciencia_de_dados
   turma: 202207-r4ds-2
   nome_curso: R para Ciência de Dados II
-  num_aula: '0'
+  num_aula: '3'
   download_material: 'TRUE'
 ---
 
@@ -122,14 +122,21 @@ if (nrow(tab) > 0) {
 ## Lição de casa
 
 ```{r}
-tibble::tibble(
-  nome = CursoRopen:::list_github_files(params$main_repo, "exercicios/"),
-  link = paste0("https://curso-r.github.io/", params$main_repo, "/", nome),
-  exercicio = glue::glue("[{nome}]({link})")
-) %>%
-    dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
-  dplyr::select(exercicio) %>% 
-  knitr::kable()
+readxl::read_excel("tab_exercicios.xlsx") %>%
+  dplyr::filter(extra == "nao", aula <= params$num_aula) %>%
+  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
+  dplyr::select(-desc, -url, -extra) %>%
+  knitr::kable(col.names = c("Aula", "Descrição"))
+```
+
+## Lição de casa extra &#x1f913;
+
+```{r}
+readxl::read_excel("tab_exercicios.xlsx") %>%
+  dplyr::filter(extra == "sim", aula <= params$num_aula) %>%
+  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
+  dplyr::select(-desc, -url, -extra) %>%
+  knitr::kable(col.names = c("Aula", "Descrição"))
 ```
 
 

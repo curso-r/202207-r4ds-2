@@ -3,28 +3,28 @@
 
 ## Informações importantes
 
-  - [Clique
+-   [Clique
     aqui](https://github.com/curso-r/main-r4ds-2/raw/master/material_do_curso.zip)
     para baixar o material do curso.
 
-  - Nosso blog: <https://curso-r.com/blog/>
+-   Nosso blog: <https://curso-r.com/blog/>
 
-  - Nossos livros: [Ciência de Dados em R](https://livro.curso-r.com/) e
+-   Nossos livros: [Ciência de Dados em R](https://livro.curso-r.com/) e
     [Zen do R](https://curso-r.github.io/zen-do-r/)
 
 ## Dúvidas
 
 Fora do horário de aula ou monitoria:
 
-  - perguntas gerais sobre o curso deverão ser feitas no Classroom.
+-   perguntas gerais sobre o curso deverão ser feitas no Classroom.
 
-  - perguntas sobre R, principalmente as que envolverem código, deverão
+-   perguntas sobre R, principalmente as que envolverem código, deverão
     ser enviadas no [nosso fórum](https://discourse.curso-r.com/).
 
 ## Slides
 
 | slides                                                                                                  |
-| :------------------------------------------------------------------------------------------------------ |
+|:--------------------------------------------------------------------------------------------------------|
 | [00-introducao-ao-curso.html](https://curso-r.github.io/main-r4ds-2/slides/00-introducao-ao-curso.html) |
 | [01-organizacao-projeto.html](https://curso-r.github.io/main-r4ds-2/slides/01-organizacao-projeto.html) |
 | [02-dplyr-tidyr.html](https://curso-r.github.io/main-r4ds-2/slides/02-dplyr-tidyr.html)                 |
@@ -35,26 +35,41 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| script                                                                                                              |
-| :------------------------------------------------------------------------------------------------------------------ |
-| [exemplos\_de\_aula/dplyr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/dplyr.R) |
-| [exemplos\_de\_aula/tidyr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/tidyr.R) |
+| script                                                                                                            |
+|:------------------------------------------------------------------------------------------------------------------|
+| [exemplos_de_aula/dplyr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/dplyr.R) |
+| [exemplos_de_aula/tidyr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/tidyr.R) |
 
 ## Parte prática das aulas
 
-| script                                                                                        |
-| :-------------------------------------------------------------------------------------------- |
-| [praticas/01-tidyr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/01-tidyr.R) |
+| script                                                                                            |
+|:--------------------------------------------------------------------------------------------------|
+| [praticas/01-tidyr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/01-tidyr.R)     |
+| [praticas/02-stringr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/02-stringr.R) |
 
 ## Lição de casa
 
-| exercicio |
-| :-------- |
+| Aula | Descrição                                                                                                                                                                                                                                                                                                                        |
+|-----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    1 | [Faça um documento em R Markdown mostrando as 10 delegacias com mais roubo de carro no Estado de SP. Use a base “ssp” presente na pasta “data” no material do curso. Faça isso seguindo o modelo de organização de projetos visto na primeira aula.](https://curso-r.github.io/main-r4ds-2/slides/01-organizacao-projeto.html#1) |
+|    2 | [Exercícios de dplyr 1.0](https://livro.curso-r.com/7-2-dplyr.html#exerc%C3%ADcios-17)                                                                                                                                                                                                                                           |
+|    2 | [Exercícios de tidyr](https://livro.curso-r.com/7-3-tidyr.html#exerc%C3%ADcios-18)                                                                                                                                                                                                                                               |
+|    3 | [Exercícios stringr](https://livro.curso-r.com/7-4-o-pacote-stringr.html#exerc%C3%ADcios-19)                                                                                                                                                                                                                                     |
+
+## Lição de casa extra 🤓
+
+| Aula | Descrição                                                                                                                                                                                         |
+|-----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    1 | [Reorganize alguma análise que você já fez no R seguindo o modelo de organização de projetos visto na primeira aula.](https://curso-r.github.io/main-r4ds-2/slides/01-organizacao-projeto.html#1) |
+|    2 | [Fazer uma tabela do lucro médio anual dos filmes de comédia, ação e romance (2000 a 2016)](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                            |
+|    2 | [Calcular o lucro médio por gênero do filme na base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                                                              |
+|    2 | [Fazer gráficos de dispersão do lucro vs todas as outras variáveis núméricas da base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                             |
+|    3 | [Exercícios extras de stringr](https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R)                                                                                    |
 
 ## Trabalhos finais premiados
 
-| pasta\_compactada |
-| :---------------- |
+| pasta_compactada |
+|:-----------------|
 
 ## Material extra
 
@@ -63,7 +78,7 @@ que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
 | Aula | Tema             | Descrição                                                                                                                                      |
-| ---: | :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----:|:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 |    1 | Organização      | [Capítulo .RData e .Rhistory - Zen do R](https://curso-r.github.io/zen-do-r/rdata-rhistory.html)                                               |
 |    1 | Organização      | [Capítulo Rproj e diretórios - Zen do R](https://curso-r.github.io/zen-do-r/rproj-dir.html)                                                    |
 |    1 | Organização      | [Capítulo Funções e dependências - Zen do R](https://curso-r.github.io/zen-do-r/funcoes-deps.html)                                             |
@@ -73,7 +88,7 @@ relacionadas com o conteúdo da aula).
 |    1 | Git e GitHub     | [Slides sobre Git e GitHub - Beatriz Milz](https://beatrizmilz.github.io/2022-curso-de-verao-ime-usp-relatorios/slides/#git-e-github)          |
 |    2 | tidyr            | [Colinha do {dplyr}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-transformation.pdf)                                     |
 |    2 | tidyr            | [Colinha do {tidyr}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-import.pdf)                                             |
-|    2 | tidyr            | [Post sobre a mudança para pivot\_longer() e pivot\_wider()](https://blog.curso-r.com/posts/2020-08-13-pivotagem/)                             |
+|    2 | tidyr            | [Post sobre a mudança para pivot_longer() e pivot_wider()](https://blog.curso-r.com/posts/2020-08-13-pivotagem/)                               |
 |    2 | tidyr            | [Desafio 1: a resolução utiliza funções de pivotagem](https://discourse.curso-r.com/t/desafio-1-manipulando-a-base-de-filmes-do-imdb/1870)     |
 |    2 | tidyr            | [Texto sobre tidyr por Garrick Aden-Buie](https://www.garrickadenbuie.com/project/tidyexplain/)                                                |
 |    2 | tidyr            | [Livro da Curso-R: Capítulo sobre tidyr](https://livro.curso-r.com/7-3-tidyr.html)                                                             |
@@ -96,8 +111,8 @@ relacionadas com o conteúdo da aula).
 |    4 | lubridate        | [Mais exemplos de códigos para abreviar datas](https://rdrr.io/r/base/strptime.html)                                                           |
 |    4 | lubridate        | [Post no blog sobre o Lubridate](https://blog.curso-r.com/posts/2021-11-16.lubridate/)                                                         |
 |    4 | lubridate        | [Post no blog: texto por William Amorim, com dados de poluição do ar](https://blog.curso-r.com/posts/2018-06-18-poluicao-greve-caminhoneiros/) |
-|    4 | lubridate        | [Post no blog com exemplo de readr::parse\_date()](Post%20no)                                                                                  |
-|    4 | forcats          | [Post no blog com exemplo de forcats::fct\_reorder()](https://blog.curso-r.com/posts/2020-17-02-dicas-relatorios-r4ds1_graficos/)              |
+|    4 | lubridate        | [Post no blog com exemplo de readr::parse_date()](Post%20no)                                                                                   |
+|    4 | forcats          | [Post no blog com exemplo de forcats::fct_reorder()](https://blog.curso-r.com/posts/2020-17-02-dicas-relatorios-r4ds1_graficos/)               |
 |    5 | purrr            | [A Magia de {purrr}](https://lente.dev/posts/magica-purrr/)                                                                                    |
 |    5 | purrr            | [Webinar de {purrr} avançado](https://www.youtube.com/watch?v=vb1lD9_AFcU)                                                                     |
 |    5 | purrr            | [Exemplos com {purrr}](https://lente.dev/advanced-purrr.pdf)                                                                                   |
