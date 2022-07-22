@@ -42,9 +42,10 @@ Fora do horário de aula ou monitoria:
 
 ## Parte prática das aulas
 
-| script                                                                                        |
-| :-------------------------------------------------------------------------------------------- |
-| [praticas/01-tidyr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/01-tidyr.R) |
+| script                                                                                            |
+| :------------------------------------------------------------------------------------------------ |
+| [praticas/01-tidyr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/01-tidyr.R)     |
+| [praticas/02-stringr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/02-stringr.R) |
 
 ## Lição de casa
 
