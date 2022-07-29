@@ -48,6 +48,7 @@ Fora do horário de aula ou monitoria:
 | [praticas/01-tidyr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/01-tidyr.R)                         |
 | [praticas/02-stringr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/02-stringr.R)                     |
 | [praticas/03-lubridate-forcats.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/03-lubridate-forcats.R) |
+| [praticas/04-purrr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/04-purrr.R)                         |
 
 ## Lição de casa
 
@@ -59,6 +60,7 @@ Fora do horário de aula ou monitoria:
 |    3 | [Exercícios stringr](https://livro.curso-r.com/7-4-o-pacote-stringr.html#exerc%C3%ADcios-19)                                                                                                                                                                                                                                     |
 |    4 | [Exercícios lubridate](https://livro.curso-r.com/7-5-o-pacote-lubridate.html#exerc%C3%ADcios-20)                                                                                                                                                                                                                                 |
 |    4 | [Exercícios forcats](https://livro.curso-r.com/7-6-forcats.html#exerc%C3%ADcios-21)                                                                                                                                                                                                                                              |
+|    5 | [Exercícios de purrr](https://livro.curso-r.com/10-5-exerc%C3%ADcios-23.html)                                                                                                                                                                                                                                                    |
 
 ## Lição de casa extra
 
@@ -70,6 +72,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Fazer gráficos de dispersão do lucro vs todas as outras variáveis núméricas da base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                             |
 |    3 | [Exercícios extras de stringr](https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R)                                                                                    |
 |    4 | [forcats: leitura extra](https://livro.curso-r.com/7-6-forcats.html#forcats)                                                                                                                      |
+|    5 | [Exercícios do livro R for Data Science (inglês)](https://r4ds.had.co.nz/iteration.html#exercises-61)                                                                                             |
 
 ## Trabalhos finais premiados
 
