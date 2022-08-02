@@ -41,6 +41,7 @@ Fora do horário de aula ou monitoria:
 | [exemplos_de_aula/dplyr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/dplyr.R)                                             |
 | [exemplos_de_aula/forcats.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/forcats.R)                                         |
 | [exemplos_de_aula/lubridate.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/lubridate.R)                                     |
+| [exemplos_de_aula/nse.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/nse.R)                                                 |
 | [exemplos_de_aula/purrr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/purrr.R)                                             |
 | [exemplos_de_aula/stringr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/stringr.R)                                         |
 | [exemplos_de_aula/tidyr.R](https://raw.githubusercontent.com/curso-r/202207-r4ds-2/main/exemplos_de_aula/tidyr.R)                                             |
