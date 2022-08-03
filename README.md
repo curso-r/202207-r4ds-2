@@ -54,6 +54,7 @@ Fora do horário de aula ou monitoria:
 | [praticas/02-stringr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/02-stringr.R)                     |
 | [praticas/03-lubridate-forcats.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/03-lubridate-forcats.R) |
 | [praticas/04-purrr.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/04-purrr.R)                         |
+| [praticas/05-nse.R](https://github.com/curso-r/202207-r4ds-2/blob/main/praticas/05-nse.R)                             |
 
 ## Lição de casa
 
@@ -66,6 +67,7 @@ Fora do horário de aula ou monitoria:
 |    4 | [Exercícios lubridate](https://livro.curso-r.com/7-5-o-pacote-lubridate.html#exerc%C3%ADcios-20)                                                                                                                                                                                                                                 |
 |    4 | [Exercícios forcats](https://livro.curso-r.com/7-6-forcats.html#exerc%C3%ADcios-21)                                                                                                                                                                                                                                              |
 |    5 | [Exercícios de purrr](https://livro.curso-r.com/10-5-exerc%C3%ADcios-23.html)                                                                                                                                                                                                                                                    |
+|    6 | [Exercícios NSE](https://livro.curso-r.com/11-1-nse.html#exerc%C3%ADcios-24)                                                                                                                                                                                                                                                     |
 
 ## Lição de casa extra
 
